@@ -1,0 +1,16 @@
+.bg_main_imaga {
+  background-image: url(https://picsum.photos/1000/1000/?random);
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav_bar{
+  opacity: 0;
+  color: white;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: row-reverse;
+}
