@@ -36,6 +36,12 @@ body, html{
   border-bottom: 1px solid #536DFE;
   width:fit-content;
 }
+a{
+  color: white
+}
+a:hover{
+  color:#757575;
+}
 
 .about{
   text-align: center;
@@ -43,4 +49,36 @@ body, html{
   background-color: #455A64;
   color:#FFFFFF;
   height: 400px;
+}
+
+.icon{
+  font-size: 64px;
+}
+
+.pane {
+  background-image: url("http://placehold.it/150x100");
+  background-size: cover;
+  background-position: center;
+  color:white;
+  text-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.large {
+  height:51vh;
+}
+div .large:hover{
+  background-color: #536DFE;
+  background-image: url(https://picsum.photos/1000/1000/?random);
+}
+.label {
+  border-bottom: 1px solid #536DFE;
+  width:fit-content;
+}
+.badge:empty{
+  display: inline;
+}
+.badge{
+  max-height:175px;
 }
