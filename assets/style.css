@@ -65,15 +65,32 @@ a:hover{
   flex-direction: column;
   justify-content: flex-start;
 }
-.large {
-  height:51vh;
-}
-div .large:hover{
+.large:hover{
   background-color: #536DFE;
   background-image: url(https://picsum.photos/1000/1000/?random);
 }
+.darkside{
+  background-image: url(darkside.png);
+}
+.darkside:hover{
+  background-color: #536DFE;
+  background-image: url(darkside.png);
+}
+.disapper{
+  opacity: 0;
+}
+.card{
+  height: 100%;
+  background-color: #536DFEDD;
+}
+.disapper:hover{
+  opacity: 100;
+}
+.large {
+  height:51vh;
+}
 .label {
-  border-bottom: 1px solid #536DFE;
+  border-bottom: 1px solid #BDBDBD;
   width:fit-content;
 }
 .badge:empty{
