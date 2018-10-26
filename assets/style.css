@@ -1,16 +1,46 @@
-.bg_main_imaga {
-  background-image: url(https://picsum.photos/1000/1000/?random);
+body, html{
+  height: 100%;
+  margin:0;
+}
+.bg_main_image {
+  background-image: url(AuroraFrogStalnacke1024.jpg);
+  background-size: cover;
   background-color: white;
-  height: 500px;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+}
+.image_text{
+  color: #FFFFFF;
+  text-shadow: 0 0 5px black;
+  font-size: 4em;
 }
 
-.nav_bar{
-  opacity: 0;
-  color: white;
+.ch{
+  height: 295px;
+}
+.navbar{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbutton{
+  color:white;
   text-shadow: 0 0 5px black;
-  display: flex;
-  flex-direction: row-reverse;
+}
+
+.navbutton:hover{
+  color: #757575;
+}
+.label {
+  border-bottom: 1px solid #536DFE;
+  width:fit-content;
+}
+
+.about{
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  background-color: #455A64;
+  color:#FFFFFF;
+  height: 400px;
 }
