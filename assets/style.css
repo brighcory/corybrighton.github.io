@@ -56,7 +56,6 @@ a:hover{
 }
 
 .pane {
-  background-image: url("http://placehold.it/150x100");
   background-size: cover;
   background-position: center;
   color:white;
@@ -69,12 +68,53 @@ a:hover{
   background-color: #536DFE;
   background-image: url(https://picsum.photos/1000/1000/?random);
 }
+
+.porfolio{
+  background-color: #455A64;
+}
 .darkside{
   background-image: url(darkside.png);
 }
 .darkside:hover{
   background-color: #536DFE;
   background-image: url(darkside.png);
+}
+.kanban{
+  background-image: url(Kanban.png);
+}
+.kanban:hover{
+  background-color: #536DFE;
+  background-image: url(Kanban.png);
+}
+.flip{
+  background-image: url(Flip.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flip:hover{
+  background-color: #536DFE;
+  background-image: url(Flip.png);
+}
+.inspire{
+  background-image: url(Inspire.png);
+}
+.inspire:hover{
+  background-color: #536DFE;
+  background-image: url(Inspire.png);
+}
+.music{
+  background-image: url(Music.png);
+}
+.music:hover{
+  background-color: #536DFE;
+  background-image: url(Music.png);
+}
+.battle{
+  background-image: url(BattleCards.png);
+}
+.battle:hover{
+  background-color: #536DFE;
+  background-image: url(BattleCards.png);
 }
 .disapper{
   opacity: 0;
@@ -87,7 +127,7 @@ a:hover{
   opacity: 100;
 }
 .large {
-  height:51vh;
+  height:25vh;
 }
 .label {
   border-bottom: 1px solid #BDBDBD;
