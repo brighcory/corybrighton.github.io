@@ -73,11 +73,11 @@ a:hover{
   background-color: #455A64;
 }
 .darkside{
-  background-image: url(darkside.png);
+  background-image: url(Keepr.png);
 }
 .darkside:hover{
   background-color: #536DFE;
-  background-image: url(darkside.png);
+  background-image: url(Keepr.png);
 }
 .kanban{
   background-image: url(Kanban.png);
